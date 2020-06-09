@@ -85,6 +85,6 @@ for (var v = 0 ; v < todos.length ; v++){
 }
 
 
-new item("sport"); 
+new item(); 
 
 
