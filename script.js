@@ -31,8 +31,8 @@ class item{
     	edit.addEventListener('click', () => this.edit(input, name));
 
     	var remove = document.createElement('button');
-    	remove.classList.add('remove');
-    	remove.innerHTML = "REMOVE";
+    	remove.classList.add('erase');
+    	remove.innerHTML = "ERASE";
     	remove.addEventListener('click', () => this.remove(itemBox, name));
 
     	container.appendChild(itemBox);
